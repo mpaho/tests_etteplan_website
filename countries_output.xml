@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20211005 11:10:31.820" rpa="false" schemaversion="2">
+<suite id="s1" name="Etteplan Navigations" source="C:\Users\ett18806\Documents\tests_etteplan_website\etteplan_navigations.robot">
+<test id="s1-t1" name="Test Etteplan countries dropdown menu">
+<kw name="Open Browser To Homepage" library="EtteplanLibrary" type="SETUP">
+<doc>This keyword opens the browser and navigates to Etteplan homepage. Acts as a test or suite setup for further testing.</doc>
+<msg timestamp="20211005 11:10:35.615" level="INFO">Landed on page &lt;Engineering company with a Difference | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:31.976" endtime="20211005 11:10:35.615"/>
+</kw>
+<kw name="Choose Suomi From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's Finnish homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:35.635" level="INFO">Test started from &lt;https://www.etteplan.com/&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:35.615" endtime="20211005 11:10:40.729"/>
+</kw>
+<kw name="Finnish Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:40.737" level="INFO">Landed on page &lt;Erilainen suunnittelutoimisto | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:40.729" endtime="20211005 11:10:40.737"/>
+</kw>
+<kw name="Choose Sverige From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's Swedish homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:40.748" level="INFO">Test started from &lt;https://www.etteplan.com/fi&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:40.737" endtime="20211005 11:10:43.018"/>
+</kw>
+<kw name="Swedish Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:43.029" level="INFO">Landed on page &lt;Ingenjörsföretag som gör skillnad | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:43.018" endtime="20211005 11:10:43.029"/>
+</kw>
+<kw name="Choose Nederland From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's Dutch homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:43.044" level="INFO">Test started from &lt;https://www.etteplan.com/sv&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:43.029" endtime="20211005 11:10:48.860"/>
+</kw>
+<kw name="Dutch Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:48.874" level="INFO">Landed on page &lt;Engineering company with a difference | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:48.860" endtime="20211005 11:10:48.874"/>
+</kw>
+<kw name="Choose Deutchland From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's German homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:48.879" level="INFO">Test started from &lt;https://www.etteplan.com/nl&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:48.874" endtime="20211005 11:10:51.092"/>
+</kw>
+<kw name="German Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:51.102" level="INFO">Landed on page &lt;Engineering Unternehmen mit dem gewissen Unterschied | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:51.092" endtime="20211005 11:10:51.102"/>
+</kw>
+<kw name="Choose Danmark From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's Danish homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:51.118" level="INFO">Test started from &lt;https://www.etteplan.com/de&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:51.103" endtime="20211005 11:10:54.514"/>
+</kw>
+<kw name="Danish Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:54.529" level="INFO">Landed on page &lt;Engineering with a difference | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:54.514" endtime="20211005 11:10:54.529"/>
+</kw>
+<kw name="Choose Chinese From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's Chinese homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:54.535" level="INFO">Test started from &lt;https://www.etteplan.com/dk&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:54.529" endtime="20211005 11:10:57.238"/>
+</kw>
+<kw name="Chinese Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:57.246" level="INFO">Landed on page &lt;与众不同的工程设计公司 | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:57.238" endtime="20211005 11:10:57.246"/>
+</kw>
+<kw name="Choose Global English From Dropdown" library="EtteplanLibrary">
+<doc>A keyword to navigate to Etteplan's English homepage using the dropdown menu in site header. 
+In case the current page is the same one as the seeked one, the keyword is skipped.</doc>
+<msg timestamp="20211005 11:10:57.258" level="INFO">Test started from &lt;https://www.etteplan.com/cn&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:57.246" endtime="20211005 11:10:59.937"/>
+</kw>
+<kw name="English Homepage Should Be Open" library="EtteplanLibrary">
+<msg timestamp="20211005 11:10:59.945" level="INFO">Landed on page &lt;Engineering company with a Difference | Etteplan&gt;</msg>
+<status status="PASS" starttime="20211005 11:10:59.937" endtime="20211005 11:10:59.945"/>
+</kw>
+<kw name="Close Browser" library="EtteplanLibrary" type="TEARDOWN">
+<doc>Closes browser and stops Playwright.</doc>
+<msg timestamp="20211005 11:11:00.083" level="INFO">Closed browsers and stopped Playwright</msg>
+<status status="PASS" starttime="20211005 11:10:59.945" endtime="20211005 11:11:00.083"/>
+</kw>
+<tag>countries</tag>
+<status status="PASS" starttime="20211005 11:10:31.976" endtime="20211005 11:11:00.083"/>
+</test>
+<status status="PASS" starttime="20211005 11:10:31.822" endtime="20211005 11:11:00.087"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">countries</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Etteplan Navigations">Etteplan Navigations</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
