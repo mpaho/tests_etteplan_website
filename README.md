@@ -1,1 +1,1 @@
-Repo for testing Etteplan website with Robot Rf and Playwright
+Repo for testing Etteplan website with Robot Framework and Playwright
