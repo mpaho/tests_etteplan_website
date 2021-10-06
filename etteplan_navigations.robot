@@ -3,14 +3,14 @@
 Library            EtteplanLibrary.py
 
 
-Test Setup         Open Browser To Homepage
-Test Teardown      Close browser
+Suite Setup         Open Browser To Homepage
+Suite Teardown      Close browser
 
 *** Test Cases ***
 
 
 Test the links to main sections
-    [Tags]  Main sections
+    [Tags]    XRAYT-12
 
     Navigate to section Our services
     Our Services Section Should Be Open
@@ -35,6 +35,7 @@ Test the links to main sections
 
 
 Test navigation to homepage by clicking the logo
+    [Tags]    XRAYT-6
 
     Navigate To Section Careers
     Navigate To Current Country Homepage By Clicking Logo
@@ -42,7 +43,7 @@ Test navigation to homepage by clicking the logo
  
 
 Test Etteplan countries dropdown menu
-    [Tags]  countries
+    [Tags]    countries
     
     Choose Suomi from dropdown
     Finnish homepage should be open
@@ -66,7 +67,7 @@ Test Etteplan countries dropdown menu
     English homepage should be open
 
 Test search field
-    [Tags]  search
+    [Tags]  XRAYT-7
 
     Search for   software testing
     Search Results Should Appear

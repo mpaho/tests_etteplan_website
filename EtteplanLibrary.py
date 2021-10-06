@@ -6,6 +6,8 @@ import logging
 
 class EtteplanLibrary():
 
+    ROBOT_LIBRARY_SCOPE = 'SUITE'
+
     def __init__(self):
         self.playwright = None
         self.browser = None
